@@ -33,7 +33,10 @@ ul li{
  --backdrop-filter-blur:blur(5px);
 }
 body{
-   background:linear-gradient(90deg, var(--white) 0%, var(--pink-light) 49%, var(--cyan-light) 100%)
+   background:linear-gradient(90deg, var(--white) 0%, var(--pink-light) 49%, var(--cyan-light) 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 ::-webkit-scrollbar {
     width: 5px;
@@ -114,10 +117,9 @@ body{
 }
 /* home Section */
 .contant{
-    /* height: 100vh; */
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }
 .layout{
     display: flex;
@@ -125,6 +127,7 @@ body{
     align-items: center;
     height: 100vh;
 }
+
 .home{
     width: 80%;
     height: 90vh;
@@ -133,7 +136,7 @@ body{
     background-color:#aef1ee25;
     border:3px solid var(--white-alpha-25);
     z-index: 9999; 
-    margin:40px auto;
+    /* margin:40px auto; */
     border-radius: 30px;
     padding: 30px;
 }
