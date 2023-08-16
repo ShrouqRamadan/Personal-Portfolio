@@ -132,7 +132,7 @@ body{
     background-color:#aef1ee25;
     border:3px solid var(--white-alpha-25);
     z-index: 9999; 
-    margin:40px auto;
+    margin:40px auto!important;
     border-radius: 30px;
     padding: 30px;
     
