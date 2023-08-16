@@ -1,0 +1,63 @@
+@media  screen and (max-width: 1168px) {
+   
+    .img-box{
+        width: 300px;
+        height: 300px;
+       
+    }
+}
+@media  screen and (max-width: 992px) {
+    body{
+        height: auto;
+        padding: 20px 0px;
+       
+    }
+    
+    .home h1{
+
+font-size: 40px;
+
+    }
+    .home{
+        height: auto;
+        text-align: center;
+    }
+    .home a{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .img-box{
+        width: 250px;
+        height: 250px;
+       
+    }
+    /* About Seaction */
+    .about-leftside{
+       order: 2;
+    }
+}
+
+
+@media  screen and (max-width: 600px) {
+  
+
+    .img-box{
+        width: 150px;
+        height: 150px;
+       
+    }
+    /* About Section */
+    .about{
+        
+        padding: 10px;
+    }
+    
+    .details-contant{
+        width: 90%!important;
+        padding: 10px;
+       
+    
+    }
+}
