@@ -117,16 +117,12 @@ body{
 }
 /* home Section */
 .contant{
+     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.layout{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+
 
 .home{
     width: 80%;
