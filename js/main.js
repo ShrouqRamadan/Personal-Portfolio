@@ -85,7 +85,6 @@ viewPro[i].addEventListener('click',function(e){
     projDetails.classList.remove('hidden');
    let parent=e.target.parentElement;
 let img=parent.querySelector("img").getAttribute('src');
-console.log(img);
 let projName=parent.querySelector("h5").innerHTML;
 let projDesc=parent.querySelector(".description").innerHTML;
 let tech=parent.querySelector(".tech").innerHTML;
@@ -93,7 +92,7 @@ let detailsImg=document.querySelector('.details-image');
 let projectLink=parent.querySelector('.project-link').getAttribute('href');
 let projectDate=parent.querySelector('.project-date').innerHTML;
 
-detailsImg.setAttribute('src',`../${img}`);
+detailsImg.setAttribute('src',`${img}`);
 document.querySelector(".project-name").innerHTML=projName;
 document.querySelector(".proj-desc").innerHTML=projDesc;
 document.querySelector(".techs span").innerHTML=tech;
